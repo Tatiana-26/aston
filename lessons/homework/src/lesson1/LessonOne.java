@@ -1,13 +1,15 @@
+package lesson1;
+
 public class LessonOne {
 
-    protected static void printThreeWords() {
+    public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
 
     }
 
-    protected static void checkSumSign() {
+    public static void checkSumSign() {
         int a = 4;
         int b = 7;
         int c = a + b;
@@ -20,7 +22,7 @@ public class LessonOne {
     }
 
 
-    protected static void printColor() {
+    public static void printColor() {
 
         int value = 43;
         if (value <= 0) {
@@ -33,7 +35,7 @@ public class LessonOne {
 
     }
 
-    protected static void compareNumbers() {
+    public static void compareNumbers() {
         int a = 67;
         int b = 41;
         if (a >= b) {
@@ -45,7 +47,7 @@ public class LessonOne {
 
     }
 
-    protected static boolean exerciseFive() {
+    public static boolean exerciseFive() {
         int a = 6;
         int b = 8;
         int c = a + b;
@@ -56,7 +58,7 @@ public class LessonOne {
         }
     }
 
-    protected static void exerciseSix(int a) {
+    public static void exerciseSix(int a) {
         if (a >= 0) {
             System.out.println("Положительное число");
         } else {
@@ -64,7 +66,7 @@ public class LessonOne {
         }
     }
 
-    protected static boolean exerciseSeven(int b) {
+    public static boolean exerciseSeven(int b) {
         if (b >= 0) {
             return false;
         } else {
@@ -72,21 +74,21 @@ public class LessonOne {
         }
     }
 
-    protected static void exerciseEight() {
+    public static void exerciseEight() {
         for (int i = 0; i < 4; i++) {
             System.out.println("Добрый вечер!");
         }
 
     }
 
-    protected static boolean exerciseNine(int y) {
+    public static boolean exerciseNine(int y) {
         if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0) {
             return true;
         }
         return false;
     }
 
-    protected static void exerciseTen() {
+    public static void exerciseTen() {
         int[] row = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
         for (int i = 0; i < row.length; i++) {
             if (row[i] == 0) {
@@ -97,14 +99,14 @@ public class LessonOne {
         }
     }
 
-    protected static void exerciseEleven() {
+    public static void exerciseEleven() {
         int[] hundred = new int[100];
         for (int i = 0; i < hundred.length; i++) {
             hundred[i] = i;
         }
     }
 
-    protected static void exerciseTwelve() {
+    public static void exerciseTwelve() {
         int[] arr = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < 6) {
@@ -113,7 +115,7 @@ public class LessonOne {
         }
     }
 
-    protected static void exerciseThirteen() {
+    public static void exerciseThirteen() {
         int n = 5;
         int[][] matrix = new int[n][n];
 
@@ -128,7 +130,7 @@ public class LessonOne {
         }
     }
 
-    protected static void exerciseFourteen(int len, int initialValue) {
+    public static void exerciseFourteen(int len, int initialValue) {
         int[] arr = new int[len];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = initialValue;
