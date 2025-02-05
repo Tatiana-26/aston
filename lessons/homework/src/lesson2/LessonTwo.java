@@ -18,9 +18,9 @@ public class LessonTwo {
     }
 
     public static void exerciseThree() {
-        Attraction attraction1 = new Attraction("Карусель", LocalTime.MIDNIGHT, LocalTime.NOON, 100);
-        Attraction attraction2 = new Attraction("Горки", LocalTime.MIDNIGHT, LocalTime.NOON, 200);
-        List<Attraction> attractions = List.of(attraction1, attraction2);
+        Park.Attraction attraction1 = new Park.Attraction("Карусель", LocalTime.MIDNIGHT, LocalTime.NOON, 100);
+        Park.Attraction attraction2 = new Park.Attraction("Горки", LocalTime.MIDNIGHT, LocalTime.NOON, 200);
+        List<Park.Attraction> attractions = List.of(attraction1, attraction2);
         Park park = new Park(attractions);
         System.out.println(park);
     }
